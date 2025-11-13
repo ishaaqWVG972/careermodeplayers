@@ -1,0 +1,1 @@
+Quick and easy way to find players for FC26 career mode. Can filter by stats, age position etc. Personal project. Next steps to add more filter options such as value, overall, potenial. Then finding players who have similar stats to a player a user selects. 
