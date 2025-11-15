@@ -36,7 +36,7 @@ def load_data():
         "shortpassing", "volleys", "curve", "freekick", "longpassing", "ballcontrol",
         "acceleration", "sprintspeed", "agility", "reactions", "balance", "shotpower",
         "jumping", "stamina", "strength", "longshots", "aggression", "interceptions",
-        "defenderpositioning", "vision", "penalties", "composure", "markingawareness",
+        "attackpositioning", "vision", "penalties", "composure", "markingawareness",
         "standingtackle", "slidingtackle", "diving", "handling", "kicking",
         "gkpositioning", "reflexes", "speed"
     ]
@@ -91,10 +91,10 @@ else:
 # --- Collapsible Stat Filters ---
 categories = {
     "Pace": ["pace", "acceleration", "sprintspeed", "speed"],
-    "Shooting": ["shooting", "finishing", "longshots", "volleys", "shotpower", "curve", "freekick", "headingaccuracy"],
+    "Shooting": ["shooting", "finishing", "longshots", "volleys", "shotpower", "curve", "freekick", "headingaccuracy", "attackpositioning"],
     "Passing": ["passing", "shortpassing", "longpassing", "vision", "crossing"],
     "Dribbling / Skill": ["dribbling", "ballcontrol", "agility", "balance", "reactions", "skillmoves"],
-    "Defending": ["defending", "markingawareness", "standingtackle", "slidingtackle", "interceptions", "defenderpositioning", "aggression"],
+    "Defending": ["defending", "markingawareness", "standingtackle", "slidingtackle", "interceptions", "aggression"],
     "Goalkeeping": ["diving", "handling", "kicking", "reflexes", "gkpositioning"],
     "Physical / Power": ["physic", "stamina", "strength", "jumping"],
     "Composure / Mentality": ["composure", "penalties"]
